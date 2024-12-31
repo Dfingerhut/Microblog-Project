@@ -1,0 +1,10 @@
+ipykernel
+matplotlib
+pandas
+numpy
+seaborn
+flask
+PyMySQL
+pymongo[srv]
+dnspython
+pyopenssl
