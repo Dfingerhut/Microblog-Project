@@ -10,6 +10,6 @@ def index():
 @app.route("/add", methods = ["GET", "POST"])
 def add_habit():
     if request.form == "POST":
-        pass
+        habits.append(request.form.get("habit"))
     
     return render_template("add_habit.html", title= "Habit Tracker - Add Habit")
